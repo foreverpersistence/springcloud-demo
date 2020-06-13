@@ -40,6 +40,13 @@
                 </exclusion>
             </exclusions>
         </dependency>
+
+
+        <!--  上报 节点 信息-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
